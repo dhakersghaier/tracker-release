@@ -3,8 +3,8 @@
 # Usage: curl -fsSL "https://raw.githubusercontent.com/dhakersghaier/tracker-release/main/install-macos.sh" | bash
 set -euo pipefail
 
-# Stable URL — file lives on main branch (see dhakersghaier/tracker-release).
-DMG_URL="${TT_DMG_URL:-https://github.com/dhakersghaier/tracker-release/raw/main/macos/timetracker-macos.dmg}"
+# Stable URL — file on main branch (see dhakersghaier/tracker-release).
+DMG_URL="${TT_DMG_URL:-https://raw.githubusercontent.com/dhakersghaier/tracker-release/main/macos/timetracker-macos.dmg}"
 
 APP_NAME="TimeTracker"
 INSTALL_DIR="/Applications"
